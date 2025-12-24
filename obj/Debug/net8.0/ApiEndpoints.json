@@ -1,0 +1,95 @@
+[
+  {
+    "ContainingType": "VotingApp.Controllers.CandidateController",
+    "Method": "Get",
+    "RelativePath": "api/candidates",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VotingApp.Controllers.CandidateController",
+    "Method": "Post",
+    "RelativePath": "api/candidates",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "candidate",
+        "Type": "VotingApp.Models.Candidate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VotingApp.Controllers.VoterController",
+    "Method": "Get",
+    "RelativePath": "api/voters",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VotingApp.Controllers.VoterController",
+    "Method": "Post",
+    "RelativePath": "api/voters",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "voter",
+        "Type": "VotingApp.Models.Voter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VotingApp.Controllers.VotingController",
+    "Method": "GetCandidates",
+    "RelativePath": "api/Voting/candidates",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VotingApp.Controllers.VotingController",
+    "Method": "Vote",
+    "RelativePath": "api/Voting/vote",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "voterId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "candidateId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VotingApp.Controllers.VotingController",
+    "Method": "GetVoters",
+    "RelativePath": "api/Voting/voters",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
